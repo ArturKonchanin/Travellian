@@ -1,0 +1,30 @@
+.section1__container{
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.section__text_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color: #172432;
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+
+.section__text_line{
+    border-bottom: 3px solid #FF7757;
+    width: 365px;
+}
+.section__text_descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #767E86;
+    padding-top: 32px;
+    padding-bottom: 100px;
+}
+

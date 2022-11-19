@@ -1,0 +1,281 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    max-width: 1920px;
+}
+
+.main{
+    background: url(../img/Hero_Section3.png) no-repeat;
+    background-size: 100vw;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 81vw;
+    margin: 0% 9.5%;
+    margin-bottom: 142px;
+}
+
+
+.header__menu{
+    width: 26em;
+    margin: 50px 0px;
+    
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__enter{
+    display: flex;
+    justify-content: space-between;
+    width: 13.875em;
+    align-items: center;
+}
+
+.header__enter_login{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__enter_sign{
+    background: #FF7757;
+    border-radius: 12px;
+    padding: 20px 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.main__block{
+    padding-left: 9%;
+    width: 57em;
+}
+
+.main__block_title{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 112px;
+    color: #FFFFFF;
+}
+
+.main__block_descr{
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 170px;
+}
+
+.travel__block{
+    width: 76.8%;
+    padding-bottom: 270px;
+}
+
+.travel__block_container{
+    display: flex;
+
+
+}
+
+.travel__search_block{
+    display: flex;
+    padding-left: 9%;
+    background-color: #FFFFFF;
+}
+
+.travel_search{
+    width: 225px;
+    padding-top: 74px;
+}
+
+.travel_title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #767E86;
+}
+
+.travel__book{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 12px;
+    background: #FF7757;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.travel__book_text{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    width: 97px;
+}
+
+.travel__book_link{
+    color: #FFFFFF
+}
+
+.none{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .menu__link{
+        margin-right: 40px;
+        font-size: 20px;
+    }
+
+    .header__button{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu__btn {
+        display: flex;
+        /* используем flex для центрирования содержимого */
+        align-items: center;
+        /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 35px;
+        left: 35px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    /* добавляем "гамбургер" */
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #3730A3;
+    }
+
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 214px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        background-color: #5146F0;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    }
+
+    /* элементы меню */
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .menu__item:hover {
+        background-color: #3730A3;
+    }
+
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        left: 0;
+        z-index: 1;
+    }
+
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        transition-duration: .25s;
+    }
+
+    .menu__box {
+        transition-duration: .25s;
+    }
+
+    .menu__item {
+        transition-duration: .25s;
+    }
+
+    .menu__list, .header__logo {
+        display: none;
+    }
+
+    .header{
+        padding-top: 20px;
+    }
+
+}
+
+
