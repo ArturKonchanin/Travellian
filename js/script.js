@@ -35,3 +35,24 @@ if (animItems.length > 0) {
 		animOnScroll();
 	}, 300);
 }
+
+$(document).ready(function(){
+	$('.slider ul').bxSlider({
+		controls: true,
+		prevSelector: '.slider-title-prev',
+		nextSelector: '.slider-title-next',        
+		pager: false,		
+		auto: false,
+		pause: 0,
+		infiniteLoop: true,
+		adaptiveHeight: true,
+		responsive: true,
+		nextText: '',
+		prevText: '',
+		moveSlides: 1,
+		minSlides: 3,
+		maxSlides: 3,
+		slideMargin: 32,  
+		slideWidth: 394      
+	});				
+});

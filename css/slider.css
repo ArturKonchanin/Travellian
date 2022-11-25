@@ -25,7 +25,7 @@
 .slider-title-prev a {
 	width: 66px;
 	height: 60px;	
-    background: url(../img/chevron-left.png) 0 0 no-repeat;
+    background: url(../img/chevron-prev.png) 0 0 no-repeat;
 	display: inline-block;
 	overflow: hidden;
 	text-indent: 999px; 
@@ -36,7 +36,7 @@
 .slider-title-next a {
 	width: 66px;
 	height: 60px;	
-	background: url(../img/chevron-right.png) 0 0 no-repeat; 
+	background: url(../img/chevron-next.png) 0 0 no-repeat; 
 	display: inline-block;
 	overflow: hidden;
 	text-indent: 999px; 
@@ -46,6 +46,7 @@
 	height: 661px;
 	overflow: hidden;
 }
+
 .slider ul {
 	margin: 0;
 	padding: 0;
@@ -53,4 +54,7 @@
 .slider ul li img {
 	width: 100%;
 	height: auto;
+	border-radius: 26px;
 }
+
+
