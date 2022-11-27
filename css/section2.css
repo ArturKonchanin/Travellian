@@ -1,0 +1,14 @@
+.section2{
+    padding-right: 9%;
+    padding-left: 9%;
+}
+
+.section2__text_line {
+    border-bottom: 3px solid #FF7757;
+    width: 365px;
+}
+
+.section2__text{
+    text-align: end;
+}
+

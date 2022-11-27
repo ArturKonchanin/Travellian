@@ -22,6 +22,12 @@ body a {
     margin-bottom: 142px;
 }
 
+.ui-datepicker-trigger {
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
 
 .header__menu{
     width: 26em;

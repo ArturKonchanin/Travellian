@@ -36,6 +36,12 @@ if (animItems.length > 0) {
 	}, 300);
 }
 
+$(function(){
+	$("#check_in").datepicker({
+		minDate: 0
+	});
+});
+
 $(document).ready(function(){
 	$('.slider ul').bxSlider({
 		controls: true,
@@ -54,5 +60,20 @@ $(document).ready(function(){
 		maxSlides: 3,
 		slideMargin: 32,  
 		slideWidth: 394      
-	});				
+	});
+	
+	$(".bx-pager:first").addClass("first");
+	$(".bx-pager:last").addClass("last");
+	$(".bx-controls-direction:first").addClass("one");
+	$(".bx-controls-direction:last").addClass("three");
 });
+
+
+    $(function () {
+        $("#datepicker").datepicker({
+            showOn: "button",
+            buttonImage: "https://snipp.ru/demo/437/calendar.gif",
+            buttonImageOnly: true,
+            buttonText: "Выбрать дату"
+        });
+    });

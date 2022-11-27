@@ -1,0 +1,47 @@
+.section3 {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.section3__block {
+    display: flex;
+    align-items: center;
+}
+
+.section3__block a{
+    color: #FF7757;
+    text-decoration: none;
+}
+
+.section3_image{
+    border-radius: 26px;
+}
+
+.section3__block_image{
+    padding-right: 32px;
+}
+
+.section3__block_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 72px;
+    color: #172432;
+}
+
+.section3__block_review {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 52px;
+    color: #172432;
+}
+
+.section3__block_link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 52px;
+    
+}
