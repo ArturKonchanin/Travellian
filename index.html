@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/jquery_calendar.css">
+    <link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/section1.css">
     <link rel="stylesheet" href="./css/section2.css">
@@ -61,11 +61,11 @@
                         </div>
                         <div class="travel_search">
                             <div class="travel_title">CHECK IN</div>
-                            <input type="text" id="datepicker" placeholder="Выберите дату">
+                            <input type="text" id="check_in" placeholder="Select date">
                         </div>
                         <div class="travel_search">
                             <div class="travel_title">CHECK OUT</div>
-                            <input type="text" id="check_out" class="travel__search_date hasDatepicker">
+                            <input type="text" id="check_out" placeholder="Select date">
                         </div>
                     </div>
                     <div class="travel__book">
@@ -75,15 +75,7 @@
                 </div>
             </div>
         </div>
-
-<input type="text" id="datepicker" placeholder="Выберите дату">
-
-<link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
-
-<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.js"></script>
-
-
+        
         <section class="section1">
             <div class="section1__container">
                 <div class="section1__block">
@@ -313,7 +305,7 @@
                                     <input type="text" placeholder="Enter your email" class="email_form">
                                 </form>
                             </div>
-                            <div class="footer__button">Subscribe</div>
+                            <div class="footer__button"><a href="#">Subscribe</a></div>
                         </div>
                     </div>
                 </div>
@@ -324,21 +316,14 @@
     
     
         <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="/jquery.min.js"></script>
         <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.min.js"></script>
         <script src="https://snipp.ru/cdn/bxslider/4.2.14/dist/jquery.bxslider.js"></script>
-        <script src="./js/script.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script>
-            $(function () {
-                $("#datepicker").datepicker({
-                    showOn: "button",
-                    buttonImage: "https://snipp.ru/demo/437/calendar.gif",
-                    buttonImageOnly: true,
-                });
-            });
-        </script>
+        <script src="./js/script.js"></script>
 
 </body>
 </html>

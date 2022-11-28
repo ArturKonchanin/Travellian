@@ -38,7 +38,17 @@ if (animItems.length > 0) {
 
 $(function(){
 	$("#check_in").datepicker({
-		minDate: 0
+		minDate: 0,
+		changeMonth: true,
+      	changeYear: true
+	});
+});
+
+$(function(){
+	$("#check_out").datepicker({
+		minDate: 0,
+		changeMonth: true,
+      	changeYear: true
 	});
 });
 
@@ -68,12 +78,3 @@ $(document).ready(function(){
 	$(".bx-controls-direction:last").addClass("three");
 });
 
-
-    $(function () {
-        $("#datepicker").datepicker({
-            showOn: "button",
-            buttonImage: "https://snipp.ru/demo/437/calendar.gif",
-            buttonImageOnly: true,
-            buttonText: "Выбрать дату"
-        });
-    });
