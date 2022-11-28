@@ -183,8 +183,18 @@ body a {
 
 .travel__block_container{
     display: flex;
+}
 
-
+.travel__form{
+    min-width: 190px;
+    border: none;
+    border-bottom: 1px solid #767E86;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #172432;
 }
 
 .travel__search_block{
@@ -198,6 +208,18 @@ body a {
     padding-top: 74px;
 }
 
+.travel__search_city, .travel__search_person{
+    min-width: 150px;
+    border: none;
+    border-bottom: 1px solid #767E86;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #172432;
+}
+
 .travel_title{
     font-style: normal;
     font-weight: 400;
@@ -205,6 +227,7 @@ body a {
     line-height: 19px;
     text-transform: uppercase;
     color: #767E86;
+    padding-bottom: 5px;
 }
 
 .travel__book{

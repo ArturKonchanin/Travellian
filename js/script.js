@@ -40,7 +40,8 @@ $(function(){
 	$("#check_in").datepicker({
 		minDate: 0,
 		changeMonth: true,
-      	changeYear: true
+		changeYear: true,
+		dateFormat: 'DD, d MM, yy'
 	});
 });
 
@@ -48,7 +49,8 @@ $(function(){
 	$("#check_out").datepicker({
 		minDate: 0,
 		changeMonth: true,
-      	changeYear: true
+		changeYear: true,
+		dateFormat: 'DD, d MM, yy'
 	});
 });
 
@@ -72,9 +74,5 @@ $(document).ready(function(){
 		slideWidth: 394      
 	});
 	
-	$(".bx-pager:first").addClass("first");
-	$(".bx-pager:last").addClass("last");
-	$(".bx-controls-direction:first").addClass("one");
-	$(".bx-controls-direction:last").addClass("three");
 });
 

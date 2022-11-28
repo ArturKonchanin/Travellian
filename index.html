@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/jquery_calendar.css">
     <link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/section1.css">
@@ -17,6 +16,7 @@
     <link rel="stylesheet" href="./css/section3.css">
     <link rel="stylesheet" href="./css/section4.css">
     <link rel="stylesheet" href="./css/section5.css">
+    <link rel="stylesheet" href="./css/section6.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -53,19 +53,32 @@
                     <div class="travel__search_block">
                         <div class="travel_search">
                             <div class="travel_title">DESTINATION</div>
-                            <input type="text" class="travel__search_date" placeholder="Dubai">
+                            <select class="travel__search_city">
+                                <option value="Dubai">Dubai</option>
+                                <option value="Paris">Paris</option>
+                                <option value="Rome">Rome</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="London">London</option>
+                                <option value="Berlin">Berlin</option>
+                            </select>
                         </div>
                         <div class="travel_search">
                             <div class="travel_title">PERSON</div>
-                            <input type="text" class="travel__search_date" placeholder="1">
+                                <select class="travel__search_person">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5+">5+</option>
+                                </select>
                         </div>
                         <div class="travel_search">
                             <div class="travel_title">CHECK IN</div>
-                            <input type="text" id="check_in" placeholder="Select date">
+                            <input type="text" id="check_in" placeholder="Select date" class="travel__form" autocomplete="off">
                         </div>
                         <div class="travel_search">
                             <div class="travel_title">CHECK OUT</div>
-                            <input type="text" id="check_out" placeholder="Select date">
+                            <input type="text" id="check_out" placeholder="Select date" class="travel__form" autocomplete="off">
                         </div>
                     </div>
                     <div class="travel__book">
@@ -109,24 +122,48 @@
         <section class="section2">
             <div class="section2__container">
                 <div class="section2__block">
-                    <div class="slider-title">
-                        <div class="slider-title-control">
-                            <div class="slider-title-prev"></div>
-                            <div class="slider-title-next"></div>
+                    <div class="section2__text">
+                        <div class="section__text_title">Special Offer</div>
+                        <div class="section2__text_line"></div>
+                        <div class="section__text_descr">Check out our special offer and discounts</div> 
+                    </div>
+                    <div class="section2__block_descr">
+                        <div class="section2__block_image">
+                            <img src="./img/Image_Container_7_s2.png" alt="">
+                            <div class="section2__block_text">Lisbon, Portugal</div>
+                            <img src="./img/Rating.png" alt="">
+                            <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and
+                            going through the cites of the world in classical literature.</div>
+                            <div class="section2__block_price">
+                                <div class="section2_price_text">From</div>
+                                <div class="section2_price_cost">500 &#8364</div>
+                                <div class="section2_price_link"><a href="#">Details</a></div>
+                            </div>
                         </div>
-                        <div class="section2__text">
-                            <div class="section__text_title">Special Offer</div>
-                            <div class="section2__text_line"></div>
-                            <div class="section__text_descr">Check out our special offer and discounts</div>
-
-                            <div class="slider">
-                                <ul>
-                                    <li><a href="#"><img src="./img/Col-block_s1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="./img/Col-block_1_s1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="./img/Col-block_2_s1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="./img/Col-block_3_s1.png" alt=""></a></li>
-                                    <li><a href="#"><img src="./img/Col-block_4_s1.png" alt=""></a></li>
-                                </ul>
+                        <div class="section2__block_image">
+                            <img src="./img/Image_Container_8_s2.png" alt="">
+                            <div class="section2__block_text">Athens, Greece</div>
+                            <img src="./img/Rating.png" alt="">
+                            <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular
+                                during the renaissance. Passage and
+                                going through the cites of the world in classical literature.</div>
+                            <div class="section2__block_price">
+                                <div class="section2_price_text">From</div>
+                                <div class="section2_price_cost">800 &#8364</div>
+                                <div class="section2_price_link"><a href="#">Details</a></div>
+                            </div>
+                        </div>
+                        <div class="section2__block_image">
+                            <img src="./img/Image_Container_9_s2.png" alt="">
+                            <div class="section2__block_text">Rome, Italy</div>
+                            <img src="./img/Rating.png" alt="">
+                            <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular
+                                during the renaissance. Passage and
+                                going through the cites of the world in classical literature.</div>
+                            <div class="section2__block_price">
+                                <div class="section2_price_text">From</div>
+                                <div class="section2_price_cost">750 &#8364</div>
+                                <div class="section2_price_link"><a href="#">Details</a></div>
                             </div>
                         </div>
                     </div>
@@ -253,8 +290,20 @@
         </section>
 
 
-        <section class="section6"></section>
-        <section class="section7"></section>
+        <section class="section6">
+            <div class="section6__container">
+                <div class="section6__block">
+                    <div class="slider-title">
+                        <div class="section6__text">
+                            <div class="section__text_title">Traveler’s Experiences</div>
+                            <div class="section__text_line"></div>
+                            <div class="section__text_descr">Here some awesome feedback from our travelers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
 
 
         <footer>

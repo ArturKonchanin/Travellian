@@ -1,4 +1,4 @@
-.section2{
+.section2__container{
     padding-right: 9%;
     padding-left: 9%;
 }
@@ -8,7 +8,20 @@
     width: 365px;
 }
 
+.section2__block_descr{
+    display: flex;
+}
+
 .section2__text{
     text-align: end;
+}
+
+.section2__block_image{
+    display: flex;
+    flex-direction: column;
+}
+
+.section2__block_price{
+    display: flex;
 }
 
