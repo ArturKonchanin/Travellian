@@ -15,6 +15,8 @@ footer{
     justify-content: space-between;
 }
 
+
+
 .footer__block a{
     text-decoration: none;
     color: #FFFFFF;
@@ -47,7 +49,36 @@ footer{
     line-height: 21px;
     color: #FFFFFF;
     padding-bottom: 12px;
+    position: relative;
+}
 
+.footer__text_contact{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.footer__text:before {
+    content: '';
+    background: #FFFFFF;
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer__text:hover {
+    background-position: 0;
+}
+
+.footer__text:hover::before {
+    width: 100%;
 }
 
 .footer__search_logo{
@@ -117,5 +148,9 @@ footer{
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+.footer__link:hover{
+    transform: scale(1.3);
 }
 
