@@ -372,8 +372,3 @@
 .ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:3px}
 .ui-widget-overlay{background:#aaa;opacity:.3;filter:Alpha(Opacity=30)}
 .ui-widget-shadow{-webkit-box-shadow:0 0 5px #666;box-shadow:0 0 5px #666}
-
-#datepicker {
-	width: 250px;
-	margin: 0 auto;
-}

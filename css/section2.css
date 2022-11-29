@@ -19,9 +19,76 @@
 .section2__block_image{
     display: flex;
     flex-direction: column;
+    padding: 0px 10px;
+}
+
+.section2__image{
+    border-radius: 26px 26px 0px 0px;
 }
 
 .section2__block_price{
     display: flex;
+    align-items: center;
 }
 
+.section2__text_container{
+    background: #FFF8F1;
+    border-radius: 0px 0px 26px 26px;
+    padding: 40px 24px;
+}
+
+.section2__block_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #767E86;
+    padding-bottom: 8px;
+}
+
+.section2__rating{
+    width: 31%;
+    padding-bottom: 24px;
+}
+
+.section2__block_review{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #172432;
+    padding-bottom: 24px;
+}
+
+.section2_price_text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #767E86;
+    padding-right: 8px;
+}
+
+.section2__block_price a{
+    color: #FFFFFF;
+}
+.section2_price_cost{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FF7757;
+    padding-right: 60px;
+}
+
+.section2_price_link{
+    background: #FF7757;
+    border-radius: 12px;
+    padding: 20px 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
