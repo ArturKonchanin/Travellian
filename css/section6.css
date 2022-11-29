@@ -2,3 +2,50 @@
     padding-left: 9%;
     padding-right: 9%;
 }
+
+
+.section6__block_review{
+    padding-bottom: 200px;
+    display: flex;
+}
+
+.section6__review{
+    padding: 60px 40px;
+    background: #F5F6F7;
+    border-radius: 12px;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.section6__review_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #767E86;
+    padding-bottom: 20px;
+}
+
+.section6__review_name{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #767E86;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.section6__review_jobtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #767E86;
+}
+
+.section6__avatar{
+    border-radius: 100px;
+    position: absolute;
+}
