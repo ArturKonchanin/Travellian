@@ -1,4 +1,4 @@
-
+/*
 const animItems = document.querySelectorAll('._anim-items');
 
 if (animItems.length > 0) {
@@ -35,29 +35,7 @@ if (animItems.length > 0) {
 		animOnScroll();
 	}, 300);
 }
-
-$(function(){
-	$("#check_in").datepicker({
-		minDate: 0,
-		changeMonth: true,
-		changeYear: true,
-		dateFormat: 'DD, d MM, yy',
-		firstDay: 1,
-		showAnim: "slideDown",
-	});
-});
-
-$(function(){
-	$("#check_out").datepicker({
-		minDate: 0,
-		changeMonth: true,
-		changeYear: true,
-		dateFormat: 'DD, d MM, yy',
-		defaultDate: +7,
-		firstDay: 1,
-		showAnim: "slideDown",
-	});
-});
+*/
 
 $(document).ready(function(){
 	$('.slider ul').bxSlider({
@@ -80,4 +58,8 @@ $(document).ready(function(){
 	});
 	
 });
+
+
+
+
 
