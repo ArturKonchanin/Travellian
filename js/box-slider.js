@@ -59,6 +59,28 @@ $(document).ready(function(){
 	
 });
 
+$(document).ready(function(){
+	$('.slider2 ul').bxSlider({
+		controls: true,
+		prevSelector: '.slider2-title-prev',
+		nextSelector: '.slider2-title-next',        
+		pager: false,		
+		auto: false,
+		pause: 0,
+		infiniteLoop: true,
+		adaptiveHeight: true,
+		responsive: true,
+		nextText: '',
+		prevText: '',
+		moveSlides: 1,
+		minSlides: 3,
+		maxSlides: 3,
+		slideMargin: 32,  
+		slideWidth: 394      
+	});
+	
+});
+
 
 
 

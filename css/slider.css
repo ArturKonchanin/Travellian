@@ -1,4 +1,5 @@
-.slider-title {
+.slider-title, 
+.slider2-title {
 	position: relative;
 }
 
@@ -9,20 +10,38 @@
 	text-align: right;
 }
 
-.slider-title-control-left{
+.slider2-title-control {
+	position: absolute;
+	top: 240px;
+	left: 0;
+	text-align: right;
+}
+
+
+.slider-title-control-left, 
+.slider2-title-control-left{
 	position: absolute;
 	top: 240px;
 	left: 0;
 	text-align: left;
 
 }
-.slider-title-control a:hover {
+.slider-title-control a:hover, 
+.slider2-title-control a:hover {
 	filter: brightness(90%);
 }
 .slider-title-prev {
 	display: inline-block;
 }
-.slider-title-prev a {
+
+.slider2-title-prev {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+
+.slider-title-prev a, 
+.slider2-title-prev a {
 	width: 66px;
 	height: 60px;	
     background: url(../img/chevron-prev.png) 0 0 no-repeat;
@@ -32,8 +51,15 @@
 }
 .slider-title-next {
 	display: inline-block;
+	padding-left: 40px;
 }
-.slider-title-next a {
+
+.slider2-title-next {
+	display: inline-block;
+}
+
+.slider-title-next a, 
+.slider2-title-next a {
 	width: 66px;
 	height: 60px;	
 	background: url(../img/chevron-next.png) 0 0 no-repeat; 
@@ -42,16 +68,19 @@
 	text-indent: 999px; 
 }
 
-.slider {
+.slider, 
+.slider2 {
 	height: 661px;
 	overflow: hidden;
 }
 
-.slider ul {
+.slider ul, 
+.slider2 ul {
 	margin: 0;
 	padding: 0;
 }
-.slider ul li img {
+.slider ul li img, 
+.slider2 ul li img {
 	width: 100%;
 	height: auto;
 	border-radius: 26px;
