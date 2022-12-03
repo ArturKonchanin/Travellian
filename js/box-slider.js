@@ -56,7 +56,6 @@ $(document).ready(function(){
 		slideMargin: 32,  
 		slideWidth: 394      
 	});
-	
 });
 
 $(document).ready(function(){
@@ -78,7 +77,48 @@ $(document).ready(function(){
 		slideMargin: 32,  
 		slideWidth: 394      
 	});
-	
+});
+
+$(document).ready(function(){
+	$('.slider3 ul').bxSlider({
+		controls: true,
+		prevSelector: '.slider3-title-prev',
+		nextSelector: '.slider3-title-next',        
+		pager: false,		
+		auto: false,
+		pause: 0,
+		infiniteLoop: true,
+		adaptiveHeight: true,
+		responsive: true,
+		nextText: '',
+		prevText: '',
+		moveSlides: 1,
+		minSlides: 3,
+		maxSlides: 3,
+		slideMargin: 32,  
+		slideWidth: 394      
+	});
+});
+
+$(document).ready(function(){
+	$('.slider4 ul').bxSlider({
+		controls: true,
+		prevSelector: '.slider4-title-prev',
+		nextSelector: '.slider4-title-next',        
+		pager: false,		
+		auto: false,
+		pause: 0,
+		infiniteLoop: true,
+		adaptiveHeight: true,
+		responsive: true,
+		nextText: '',
+		prevText: '',
+		moveSlides: 1,
+		minSlides: 3,
+		maxSlides: 3,
+		slideMargin: 32,  
+		slideWidth: 394      
+	});
 });
 
 

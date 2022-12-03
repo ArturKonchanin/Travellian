@@ -10,8 +10,7 @@
 }
 
 .section6__review{
-    padding: 60px 40px;
-    background: #F5F6F7;
+    padding: 0 40px 60px 40px;
     border-radius: 12px;
     margin: 0px 20px;
     position: relative;
@@ -24,6 +23,7 @@
     line-height: 23px;
     color: #767E86;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .section6__review_name{
@@ -47,5 +47,9 @@
 
 .section6__avatar{
     border-radius: 100px;
-    position: absolute;
+    z-index: 10;
+}
+
+.section6__block_color{
+    background: #F5F6F7;
 }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://snipp.ru/cdn/jqueryui/1.12.1/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/slider.css">
-    <link rel="stylesheet" href="./css/slider2.css">
     <link rel="stylesheet" href="./css/section1.css">
     <link rel="stylesheet" href="./css/section2.css">
     <link rel="stylesheet" href="./css/section3.css">
@@ -123,7 +122,7 @@
             <div class="section2__block">
                 <div class="slider2-title">
                     <div class="section2__text">
-                        <div class="section__text_title">Special Offer</div>
+                        <div class="section2__text_title">Special Offer</div>
                         <div class="section2__text_line"></div>
                         <div class="section__text_descr">Check out our special offer and discounts</div> 
                     </div>
@@ -138,7 +137,7 @@
                                         <img src="./img/Image_Container_7_s2.png" alt="" class="section2__image">
                                         <div class="section2__text_container">
                                             <div class="section2__block_text">Lisbon, Portugal</div>
-                                            <img src="./img/Rating.png" alt="" class="section2__rating">
+                                            <img src="./img/Rating.png" alt="" id="section2__rating">
                                             <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and
                                             going through the cites of the world in classical literature.</div>
                                             <div class="section2__block_price">
@@ -154,7 +153,7 @@
                                         <img src="./img/Image_Container_8_s2.png" alt="" class="section2__image">
                                         <div class="section2__text_container">
                                             <div class="section2__block_text">Athens, Greece</div>
-                                            <img src="./img/Rating.png" alt="" class="section2__rating">
+                                            <img src="./img/Rating.png" alt="" id="section2__rating">
                                             <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular
                                                 during the renaissance. Passage and
                                                 going through the cites of the world in classical literature.</div>
@@ -171,7 +170,7 @@
                                         <img src="./img/Image_Container_9_s2.png" alt="" class="section2__image">
                                         <div class="section2__text_container">
                                             <div class="section2__block_text">Rome, Italy</div>
-                                            <img src="./img/Rating.png" alt="" class="section2__rating">
+                                            <img src="./img/Rating.png" alt="" id="section2__rating">
                                             <div class="section2__block_review">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular
                                                 during the renaissance. Passage and
                                                 going through the cites of the world in classical literature.</div>
@@ -190,10 +189,7 @@
             </div>
         </div>
     </section>
-
-    
-
-    
+   
     <section class="section3">
         <div class="section3__container">
             <div class="section3__text">
@@ -295,12 +291,23 @@
     <section class="section5">
         <div class="section5__container">
             <div class="section5__block">
-                <div class="slider-title">
-                    <div class="section5__text">
+                <div class="slider3-title">
+                    <div class="section1__text">
                         <div class="section__text_title">Destination Gallery</div>
                         <div class="section__text_line"></div>
                         <div class="section__text_descr">Our photo gallery on trip</div>
-                    </div>
+                        <div class="slider3-title-control">
+                            <div class="slider3-title-prev"></div>
+                            <div class="slider3-title-next"></div>
+                        </div>
+                        <div class="slider3">
+                            <ul>
+                                <li><a href="#"><img src="./img/Image_Container_s5.png" alt=""></a></li>
+                                <li><a href="#"><img src="./img/Image_Container_1_s5.png" alt=""></a></li>
+                                <li><a href="#"><img src="./img/Image_Container_2_s5.png" alt=""></a></li>
+                                <li><a href="#"><img src="./img/Col-block_4_s5.png" alt=""></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -311,48 +318,63 @@
     <section class="section6">
         <div class="section6__container">
             <div class="section6__block">
-                <div class="section6__text">
-                    <div class="section__text_title">Traveler’s Experiences</div>
-                    <div class="section__text_line"></div>
-                    <div class="section__text_descr">Here some awesome feedback from our travelers</div>
-                </div>
+                <div class="slider4-title">
+                    <div class="section1__text">
+                        <div class="section__text_title">Traveler’s Experiences</div>
+                        <div class="section__text_line"></div>
+                        <div class="section__text_descr">Here some awesome feedback from our travelers</div>
+                        <div class="slider4-title-control">
+                            <div class="slider4-title-prev"></div>
+                            <div class="slider4-title-next"></div>
+                        </div>
                 <div class="section6__block_review">
-                    <div class="section6__review">
-                        <img src="./img/Avatar.png" alt="" class="section6__avatar">
-                        <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give
-                        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the master-
-                        builder of human happiness.</div>
-                        <img src="./img/Rating.png" alt="" class="section6__rating">
-                        <div class="section6__review_name">John Doe</div>
-                        <div class="section6__review_jobtitle">Accountant</div>
-                    </div>
-                    <div class="section6__review">
-                        <img src="./img/Avatar_1.png" alt="" class="section6__avatar">
-                        <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and
-                            praising pain was born and I will give
-                            you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
-                            master-
-                            builder of human happiness.</div>
-                        <img src="./img/Rating.png" alt="" class="section6__rating">
-                        <div class="section6__review_name">John Smith</div>
-                        <div class="section6__review_jobtitle">Journalist, HWO News</div>
-                    </div>
-                    <div class="section6__review">
-                        <img src="./img/Avatar_2.png" alt="" class="section6__avatar">
-                        <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and
-                            praising pain was born and I will give
-                            you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
-                            master-
-                            builder of human happiness.</div>
-                        <img src="./img/Rating.png" alt="" class="section6__rating">
-                        <div class="section6__review_name">Tamara Bellis</div>
-                        <div class="section6__review_jobtitle">Managing Director, JTH</div>
-                    </div>
+                    <div class="slider4">
+                        <ul>
+                            <li><a href="#">
+                                <div class="section6__review">
+                                    <img src="./img/Avatar.png" alt="" class="section6__avatar">
+                                    <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and
+                                        praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+                                        master-
+                                        builder of human happiness.</div>
+                                    <img src="./img/Rating.png" alt="" class="section6__rating">
+                                    <div class="section6__review_name">John Doe</div>
+                                    <div class="section6__review_jobtitle">Accountant</div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="section6__review">
+                                    <img src="./img/Avatar_1.png" alt="" class="section6__avatar">
+                                    <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and
+                                        praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+                                        master-
+                                        builder of human happiness.</div>
+                                    <img src="./img/Rating.png" alt="" class="section6__rating">
+                                    <div class="section6__review_name">John Smith</div>
+                                    <div class="section6__review_jobtitle">Journalist, HWO News</div>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <div class="section6__review">
+                                    <div><img src="./img/Avatar_2.png" alt="" class="section6__avatar"></div>
+                                    <div class="section6__review_text">But I must explain to you how all this mistaken idea of denouncing pleasure and
+                                        praising pain was born and I will give
+                                        you a complete account of the system and expound the actual teachings of the great explorer of the truth, the
+                                        master-
+                                        builder of human happiness.</div>
+                                    <img src="./img/Rating.png" alt="" class="section6__rating">
+                                    <div class="section6__review_name">Tamara Bellis</div>
+                                    <div class="section6__review_jobtitle">Managing Director, JTH</div>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>         
                 </div>
             </div>
         </div>
     </section>
-
 
     <footer>
         <div class="footer__container">

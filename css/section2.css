@@ -12,6 +12,18 @@
     display: flex;
 }
 
+
+.section2__text_title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    color: #172432;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
 .section2__text{
     display: flex;
     flex-direction: column;
@@ -33,6 +45,11 @@
     align-items: center;
 }
 
+.section2__block_price a{
+    display: flex;
+    align-items: center;
+}
+
 .section2__text_container{
     background: #FFF8F1;
     border-radius: 0px 0px 26px 26px;
@@ -48,7 +65,7 @@
     padding-bottom: 8px;
 }
 
-.section2__rating{
+#section2__rating{
     width: 31%;
     padding-bottom: 24px;
 }
@@ -79,7 +96,7 @@
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 47px;
     color: #FF7757;
     padding-right: 60px;

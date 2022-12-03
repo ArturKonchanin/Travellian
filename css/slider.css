@@ -1,25 +1,39 @@
 .slider-title, 
-.slider2-title {
+.slider2-title,
+.slider3-title,
+.slider4-title {
 	position: relative;
 }
 
-.slider-title-control {
+.slider-title-control,
+.slider3-title-control {
 	position: absolute;
-	top: 240px;
+	top: 200px;
 	right: 0;
 	text-align: right;
 }
 
+
+
 .slider2-title-control {
 	position: absolute;
-	top: 240px;
+	top: 160px;
 	left: 0;
+	text-align: right;
+}
+
+.slider4-title-control {
+	position: absolute;
+	bottom: 230px;
+	right: 0;
 	text-align: right;
 }
 
 
 .slider-title-control-left, 
-.slider2-title-control-left{
+.slider2-title-control-left,
+.slider3-title-control-left,
+.slider4-title-control-left {
 	position: absolute;
 	top: 240px;
 	left: 0;
@@ -27,10 +41,14 @@
 
 }
 .slider-title-control a:hover, 
-.slider2-title-control a:hover {
+.slider2-title-control a:hover,
+.slider3-title-control a:hover,
+.slider4-title-control a:hover {
 	filter: brightness(90%);
 }
-.slider-title-prev {
+.slider-title-prev,
+.slider3-title-prev,
+.slider4-title-prev {
 	display: inline-block;
 }
 
@@ -41,7 +59,9 @@
 
 
 .slider-title-prev a, 
-.slider2-title-prev a {
+.slider2-title-prev a,
+.slider3-title-prev a,
+.slider4-title-prev a {
 	width: 66px;
 	height: 60px;	
     background: url(../img/chevron-prev.png) 0 0 no-repeat;
@@ -49,7 +69,9 @@
 	overflow: hidden;
 	text-indent: 999px; 
 }
-.slider-title-next {
+.slider-title-next,
+.slider3-title-next,
+.slider4-title-next {
 	display: inline-block;
 	padding-left: 40px;
 }
@@ -59,7 +81,9 @@
 }
 
 .slider-title-next a, 
-.slider2-title-next a {
+.slider2-title-next a,
+.slider3-title-next a,
+.slider4-title-next a {
 	width: 66px;
 	height: 60px;	
 	background: url(../img/chevron-next.png) 0 0 no-repeat; 
@@ -69,18 +93,28 @@
 }
 
 .slider, 
-.slider2 {
+.slider2,
+.slider3 {
 	height: 661px;
 	overflow: hidden;
 }
 
+.slider4{
+	height: 600px;
+	overflow: hidden;
+}
+
 .slider ul, 
-.slider2 ul {
+.slider2 ul,
+.slider3 ul,
+.slider4 ul {
 	margin: 0;
 	padding: 0;
 }
+
 .slider ul li img, 
-.slider2 ul li img {
+.slider2 ul li img,
+.slider3 ul li img {
 	width: 100%;
 	height: auto;
 	border-radius: 26px;
