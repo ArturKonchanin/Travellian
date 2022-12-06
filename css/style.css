@@ -262,8 +262,72 @@ body a {
         margin: 0% 6%;
         width: auto;
     }
-
 }
+
+@media (max-width: 1000px) {
+    .main__block_title {
+        font-size: 65px;
+    }
+
+    .main__block_descr{
+        margin-bottom: 100px;
+    }
+
+    .header__menu {
+        margin: 50px 20px;
+    }
+    .main__block {
+        padding-left: 4%;
+        width: 80%;
+    }
+
+    .travel__block{
+        width: 95%;
+    }
+
+    .travel__search_block{
+        padding-left: 4%;
+        width: 56%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .travel_search{
+        padding: 25px 60px 24px 0;
+        width: calc(100vw * 0.18);
+    }
+
+    .travel_title, 
+    .travel__search_city, 
+    .travel__search_person{
+        font-size: 20px;
+    }
+
+    .travel__form{
+        width: 210px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width: 960px) {
+    .header_container {
+        margin: 0% 4%;
+    }
+
+    .header__enter_sign {
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 870px) {
+    .main__block_title {
+        font-size: 50px;
+        line-height: 80px;
+    }
+}
+
 
 
 @media (max-width: 768px) {
