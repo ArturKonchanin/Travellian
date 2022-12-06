@@ -353,8 +353,8 @@ body a {
         align-items: center;
         /* центрируем содержимое кнопки */
         position: fixed;
-        top: 35px;
-        left: 35px;
+        top: 46px;
+        right: 35px;
         width: 26px;
         height: 26px;
         cursor: pointer;
@@ -369,7 +369,7 @@ body a {
         position: absolute;
         width: 100%;
         height: 2px;
-        background-color: #3730A3;
+        background-color: #FFFFFF;
     }
 
     .menu__btn>span::before {
@@ -387,14 +387,14 @@ body a {
         position: fixed;
         visibility: hidden;
         top: 0;
-        left: -100%;
+        right: -100%;
         width: 214px;
         height: 100%;
         margin: 0;
         padding: 80px 0;
         list-style: none;
         text-align: center;
-        background-color: #5146F0;
+        background-color: rgba(205, 214, 219, 0.5);
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     }
 
@@ -402,18 +402,20 @@ body a {
     .menu__item {
         display: block;
         padding: 12px 24px;
-        font-weight: 600;
         text-decoration: none;
+        font-style: normal;
+        font-weight: 400;
         font-size: 20px;
-        line-height: 130%;
-        text-align: center;
-        letter-spacing: -0.01em;
-        text-transform: capitalize;
+        line-height: 24px;
         color: #FFFFFF;
     }
 
     .menu__item:hover {
         background-color: #3730A3;
+    }
+
+    #menu__toggle{
+        visibility: hidden;
     }
 
     #menu__toggle:checked~.menu__btn>span {
@@ -432,7 +434,7 @@ body a {
 
     #menu__toggle:checked~.menu__box {
         visibility: visible;
-        left: 0;
+        right: 0;
         z-index: 1;
     }
 
@@ -450,12 +452,20 @@ body a {
         transition-duration: .25s;
     }
 
-    .menu__list, .header__logo {
+    .menu__list, .header__enter {
         display: none;
     }
 
-    .header{
-        padding-top: 20px;
+    .section__text_line_burger{
+        border-bottom: 3px solid #FF7757;
+        width: 72%;
+        margin-left: 14%;
+        }
+
+    .btn_burger{
+        width: 72%;
+        margin-left: 14%;
+
     }
 
 }
