@@ -504,4 +504,27 @@ body a {
     }
 }
 
+@media (min-width: 320px){
+    .travel__block {
+            min-width: 260px;
+            margin: 0 30px;
+            width: auto;
+        }
+
+    .travel__book {
+        width: auto;
+        min-width: 260px;
+        padding: 30px 0px;
+        justify-content: center;
+    }
+
+    .travel__search_block {
+        width: 100%;
+    }
+
+    .travel_search {
+        padding: 25px 60px 24px 0;
+        width: calc(100vw * 0.8);
+}
+
 
