@@ -163,3 +163,16 @@
 .block__rating_star{
     width: 113px;
 }
+
+@media (max-width: 1050px){
+    .section4__container{
+        flex-direction: column;
+    }
+
+    .holder {
+        width: 80%;
+
+        margin: 100px 20px;
+    }
+
+}

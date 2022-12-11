@@ -45,3 +45,21 @@
     line-height: 52px;
     
 }
+
+@media (max-width:1050px) {
+    .section3__block{
+        flex-direction: column;
+    }
+
+    .section3_image {
+        width: calc(100vw * 0.9);
+        padding-left: 5%;
+
+    }
+}
+
+@media (max-width:500px) {
+    .section__text_line {
+        width: 284px;
+    }
+}
