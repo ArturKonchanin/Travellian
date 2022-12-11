@@ -496,15 +496,32 @@ body a {
 
     .travel__book{
         border-radius: 0 0 20px 20px;
-        width: 25em;
+        width: 80%;
+        padding: 30px 0px;
+        justify-content: center;
     }
 
     .travel__book_text{
        width: auto; 
     }
+
+        .travel_search {
+            align-self: center;
+            width: calc(100vw * 0.4);
+            padding: 25px 20px;
+        }
+
+    .travel_title{
+        padding-bottom: 10px;
+    }
+
+        .travel__form {
+            width: 100%;
+            min-width: 0;
+        }
 }
 
-@media (min-width: 320px){
+@media (max-width: 340px){
     .travel__block {
             min-width: 260px;
             margin: 0 30px;
@@ -545,6 +562,10 @@ body a {
     .main__block_descr {
         margin-top: 35px;
     }
+
+                        .travel__form {
+                            width: 80%;
+                        }
 
 }
 
