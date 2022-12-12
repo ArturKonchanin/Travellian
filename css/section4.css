@@ -48,6 +48,7 @@
 .section4__btn{
     position: relative;
     padding-left: 20px;
+    width: 300px;
 }
 
 .section4__btn a{
@@ -70,8 +71,8 @@
     width: 43px;
     height: 43px;
     background: #767E86;
-    top: 40px;
-    right: 80px;
+    top: 30px;
+    right: 90px;
     z-index: -2;
 
 }
@@ -85,7 +86,7 @@
     position: relative;
     width: 240px;
     height: 300px;
-    margin: 100px auto;
+    margin: 100px 10px;
 }
 
 .block {
@@ -169,10 +170,15 @@
         flex-direction: column;
     }
 
-    .holder {
-        width: 80%;
-
-        margin: 100px 20px;
+    .section4__text {
+        width: calc(100vw * 0.7);
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
+    .holder {
+        width: 78%;
+        height: 100%;
+        margin: 30px 10px;
+    }
 }
