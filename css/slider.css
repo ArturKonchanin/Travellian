@@ -120,4 +120,10 @@
 	border-radius: 26px;
 }
 
-
+@media (max-width:576px){
+	.slider-title-control{
+		top: calc(100vw * 1.19);
+		right: 100px;
+		text-align: right;
+	}
+}

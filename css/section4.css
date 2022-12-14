@@ -193,4 +193,41 @@
     .block{
         display: contents;
     }
+
+    .block__title, .block_city {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+
+    .block_text, .block_rating {
+        width: calc(100vw * 0.63);
+    }
+
+    .block_rating{
+        width: calc(100vw * 0.63);
+        font-size: 40px;
+
+    }
+
+    
+    .block__rating_star {
+        width: calc(100vw * 0.25);
+    }
+    
+}
+
+@media (max-width: 768px){
+    .block__title,
+    .block_city,
+    .block_rating {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 576px) {
+    .block__title,
+    .block_city,
+    .block_rating {
+        font-size: 18px;
+    }
 }
