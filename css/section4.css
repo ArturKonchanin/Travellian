@@ -230,4 +230,8 @@
     .block_rating {
         font-size: 18px;
     }
+
+    .section4__text_title{
+        padding-top: 0;
+    }
 }
