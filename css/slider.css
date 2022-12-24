@@ -125,19 +125,16 @@
 	.slider-title-control {
 		top: 78%;
 		right: calc(100vw * 0.29);
-
 	}
 
 	.slider2-title-control {
 		top: 104%;
 		right: calc(100vw * 0.29);
-
 	}
 
 	.slider3-title-control {
 		top: 78%;
 		right: calc(100vw * 0.29);
-
 	}
 
 	.slider4-title-control {
@@ -150,18 +147,15 @@
 	.slider-title-control{
 		top: 70%;
 		right: 30%;
-
 	}
 
 	.slider3-title-control{
 		top: 70%;
 		right: 30%;
-
 	}
-		.slider4-title-control{
+	.slider4-title-control{
 		top: 75%;
 		right: 30%;
-
 	}
 }
 
@@ -169,22 +163,21 @@
 	.slider-title-control {
 		top: 85%;
 		right: 22%;
-
 	}
+
 	.slider2-title-control {
 		top: 96%;
 		right: 22%;
-
 	}
+
 	.slider3-title-control {
 		top: 83%;
 		right: 22%;
-
 	}
+
 	.slider4-title-control {
 		top: 80%;
 		right: 22%;
-
 	}
 
 	.slider,

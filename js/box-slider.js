@@ -1,26 +1,3 @@
-/*
-$(document).ready(function(){
-	$('.slider ul').bxSlider({
-		controls: true,
-		prevSelector: '.slider-title-prev',
-		nextSelector: '.slider-title-next',        
-		pager: false,		
-		auto: false,
-		pause: 0,
-		infiniteLoop: true,
-		adaptiveHeight: true,
-		responsive: true,
-		nextText: '',
-		prevText: '',
-		moveSlides: 1,
-		minSlides: 3,
-		maxSlides: 3,
-		slideMargin: 32,  
-		slideWidth: 394      
-	});
-});
-*/
-
  // Use the conventional $ prefix for variables that hold jQuery objects.
 var $slider;
 
@@ -87,30 +64,8 @@ $(window).on("orientationchange resize", configureSlider);
 // Configure the slider once on page load.
 configureSlider();
 
-/*
-$(document).ready(function(){
-	$('.slider2 ul').bxSlider({
-		controls: true,
-		prevSelector: '.slider2-title-prev',
-		nextSelector: '.slider2-title-next',        
-		pager: false,		
-		auto: false,
-		pause: 0,
-		infiniteLoop: true,
-		adaptiveHeight: true,
-		responsive: true,
-		nextText: '',
-		prevText: '',
-		moveSlides: 1,
-		minSlides: 3,
-		maxSlides: 3,
-		slideMargin: 32,  
-		slideWidth: 394      
-	});
-});
-*/
 
- // Use the conventional $ prefix for variables that hold jQuery objects.
+// Use the conventional $ prefix for variables that hold jQuery objects.
 var $slider2;
 
 // If the only purpose of the windowWidth() function is to set the slide variables,
@@ -175,30 +130,6 @@ $('.slider2-next').click(function () {
 $(window).on("orientationchange resize", configureSlider2);
 // Configure the slider once on page load.
 configureSlider2();
-
-
-/*
-$(document).ready(function(){
-	$('.slider3 ul').bxSlider({
-		controls: true,
-		prevSelector: '.slider3-title-prev',
-		nextSelector: '.slider3-title-next',        
-		pager: false,		
-		auto: false,
-		pause: 0,
-		infiniteLoop: true,
-		adaptiveHeight: true,
-		responsive: true,
-		nextText: '',
-		prevText: '',
-		moveSlides: 1,
-		minSlides: 3,
-		maxSlides: 3,
-		slideMargin: 32,  
-		slideWidth: 394      
-	});
-});
-*/
 
  // Use the conventional $ prefix for variables that hold jQuery objects.
 var $slider3;
@@ -267,28 +198,6 @@ $(window).on("orientationchange resize", configureSlider3);
 configureSlider3();
 
 
-/*
-$(document).ready(function(){
-	$('.slider4 ul').bxSlider({
-		controls: true,
-		prevSelector: '.slider4-title-prev',
-		nextSelector: '.slider4-title-next',        
-		pager: false,		
-		auto: false,
-		pause: 0,
-		infiniteLoop: true,
-		adaptiveHeight: true,
-		responsive: true,
-		nextText: '',
-		prevText: '',
-		moveSlides: 1,
-		minSlides: 3,
-		maxSlides: 3,
-		slideMargin: 32,  
-		slideWidth: 394      
-	});
-});
-*/
 
  // Use the conventional $ prefix for variables that hold jQuery objects.
 var $slider4;

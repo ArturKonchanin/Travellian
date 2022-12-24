@@ -416,7 +416,7 @@ body a {
     }
 
     .menu__item:hover {
-        background-color: #3730A3;
+        background-color: #FF7757;
     }
 
     #menu__toggle{
@@ -470,7 +470,6 @@ body a {
     .btn_burger{
         width: 72%;
         margin-left: 14%;
-
     }
 
 }
@@ -505,28 +504,28 @@ body a {
        width: auto; 
     }
 
-        .travel_search {
-            align-self: center;
-            width: calc(100vw * 0.4);
-            padding: 25px 20px;
-        }
+    .travel_search {
+        align-self: center;
+        width: calc(100vw * 0.4);
+        padding: 25px 20px;
+    }
 
     .travel_title{
         padding-bottom: 10px;
     }
 
-        .travel__form {
-            width: 100%;
-            min-width: 0;
-        }
+    .travel__form {
+        width: 100%;
+        min-width: 0;
+    }
 }
 
 @media (max-width: 340px){
     .travel__block {
-            min-width: 260px;
-            margin: 0 30px;
-            width: auto;
-        }
+        min-width: 260px;
+        margin: 0 30px;
+        width: auto;
+    }
 
     .travel__book {
         width: auto;
