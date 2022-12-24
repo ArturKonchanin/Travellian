@@ -53,3 +53,14 @@
 .section6__block_color{
     background: #F5F6F7;
 }
+
+@media (max-width: 420px){
+    .section6__review{
+        padding: 0 0 60px 0;
+        margin: 0;
+    }
+
+        .section6__block_review{
+            padding-bottom: 70px;
+        }
+}

@@ -115,6 +115,11 @@
 @media (max-width: 568px){
     .section2__text_title {
         padding-top: 0px;
+        font-size: 50px;
 
     }
+
+        .section2_price_cost{
+            padding-right: 11px;
+        }
 }

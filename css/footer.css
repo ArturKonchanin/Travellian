@@ -220,10 +220,18 @@ footer{
     }
 }
 
-@media (max-width:400px){
+@media (max-width:420px){
     .footer__newsletter_block {
         width: calc(100vw * 0.85);
         left: calc(100vw * 0.1);
     }
+
+    .footer__newsletter_title{
+        padding-bottom: 20px;
+    }
+
+        .footer__logo_text{
+            line-height: 35px;
+        }
 }
 

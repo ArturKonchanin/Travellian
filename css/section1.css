@@ -30,9 +30,9 @@
 
 @media (max-width: 576px) {
 
-.section__text_title{
-        font-size: 40px;
-        padding-top: 20px;
+    .section__text_title{
+            font-size: 50px;
+            padding-top: 30px;
     }
 }
 

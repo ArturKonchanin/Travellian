@@ -167,12 +167,12 @@
 
 @media (max-width:420px) {
 	.slider-title-control {
-		top: 83%;
+		top: 85%;
 		right: 22%;
 
 	}
 	.slider2-title-control {
-		top: 100%;
+		top: 96%;
 		right: 22%;
 
 	}
@@ -182,7 +182,7 @@
 
 	}
 	.slider4-title-control {
-		top: 84%;
+		top: 80%;
 		right: 22%;
 
 	}
@@ -190,7 +190,7 @@
 	.slider,
 	.slider2,
 	.slider3 {
-		height: 720px;
+		height: 640px;
 	}
 
 }

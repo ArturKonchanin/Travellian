@@ -62,4 +62,9 @@
     .section__text_line {
         width: 284px;
     }
+
+    .section3__block_review{
+        line-height: 40px;
+        font-size: 24px;
+    }
 }
