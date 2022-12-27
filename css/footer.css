@@ -182,6 +182,14 @@ footer{
         font-size: 25px;
         padding-bottom: 20px;
     }
+
+    .footer__logo{
+        padding-top: 40px;
+    }
+
+    .footer__text:hover::before {
+        width: 20%;
+    }
 }
 
 @media (max-width: 660px){
