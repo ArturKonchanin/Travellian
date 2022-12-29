@@ -135,6 +135,7 @@ footer{
     line-height: 24px;
     color: #FF7757;
     border: none;
+    margin: 0 10px;
 }
 
 .footer__button{

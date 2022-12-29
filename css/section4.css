@@ -96,7 +96,7 @@
     max-width: 240px;
     max-height: 300px;
     display: none; 
-    transform: translateY(-50px);
+    transform: translateY(-35px);
 }
 
 .holder:hover .block {
@@ -165,6 +165,12 @@
     width: 113px;
 }
 
+@media (max-width:1300px){
+    .holder img {
+        width: 85%;
+    }
+}
+
 @media (max-width: 1050px){
     .section4__container{
         flex-direction: column;
@@ -184,6 +190,10 @@
         width: 78%;
         height: 100%;
         margin: 50px 10px 20px 10px;
+    }
+
+    .holder img {
+        width: 100%;
     }
 
     .block_image{
